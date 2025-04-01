@@ -20,7 +20,7 @@ $ npm install -g ethbox-cli
 $ ethbox COMMAND
 running command...
 $ ethbox (--version)
-ethbox-cli/0.0.0 linux-x64 node-v20.19.0
+ethbox-cli/0.0.2 linux-x64 node-v20.19.0
 $ ethbox --help [COMMAND]
 USAGE
   $ ethbox COMMAND
@@ -42,7 +42,8 @@ USAGE
 * [`ethbox plugins uninstall [PLUGIN]`](#ethbox-plugins-uninstall-plugin)
 * [`ethbox plugins unlink [PLUGIN]`](#ethbox-plugins-unlink-plugin)
 * [`ethbox plugins update`](#ethbox-plugins-update)
-* [`ethbox walletsearch ADDRESS`](#ethbox-walletsearch-address)
+* [`ethbox wallet create`](#ethbox-wallet-create)
+* [`ethbox wallet inspect ADDRESS`](#ethbox-wallet-inspect-address)
 
 ## `ethbox hello PERSON`
 
@@ -66,7 +67,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [src/commands/hello/index.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.0/src/commands/hello/index.ts)_
+_See code: [src/commands/hello/index.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.2/src/commands/hello/index.ts)_
 
 ## `ethbox hello world`
 
@@ -84,7 +85,7 @@ EXAMPLES
   hello world! (./src/commands/hello/world.ts)
 ```
 
-_See code: [src/commands/hello/world.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.0/src/commands/hello/world.ts)_
+_See code: [src/commands/hello/world.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.2/src/commands/hello/world.ts)_
 
 ## `ethbox help [COMMAND]`
 
@@ -396,13 +397,27 @@ DESCRIPTION
 
 _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.4.36/src/commands/plugins/update.ts)_
 
-## `ethbox walletsearch ADDRESS`
+## `ethbox wallet create`
+
+Create a new wallet with a random address
+
+```
+USAGE
+  $ ethbox wallet create
+
+DESCRIPTION
+  Create a new wallet with a random address
+```
+
+_See code: [src/commands/wallet/create.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.2/src/commands/wallet/create.ts)_
+
+## `ethbox wallet inspect ADDRESS`
 
 Search Wallet for Data
 
 ```
 USAGE
-  $ ethbox walletsearch ADDRESS
+  $ ethbox wallet inspect ADDRESS
 
 ARGUMENTS
   ADDRESS  the address to search
@@ -411,5 +426,5 @@ DESCRIPTION
   Search Wallet for Data
 ```
 
-_See code: [src/commands/walletsearch/index.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.0/src/commands/walletsearch/index.ts)_
+_See code: [src/commands/wallet/inspect.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.2/src/commands/wallet/inspect.ts)_
 <!-- commandsstop -->
