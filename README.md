@@ -399,9 +399,14 @@ _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/
 
 ## `ethbox wallet create`
 
+Create a new wallet with a random address
+
 ```
 USAGE
   $ ethbox wallet create
+
+DESCRIPTION
+  Create a new wallet with a random address
 ```
 
 _See code: [src/commands/wallet/create.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.1/src/commands/wallet/create.ts)_

@@ -12,11 +12,7 @@ export default class Create extends Command {
             privateKey: privateKey,
             source: account.source,
             generatedOn: new Date().toISOString(),
-            signing: {
-                signMessage: account.signMessage,
-                signTransaction: account.signTransaction,
-                signTypedData: account.signTypedData,
-            }
+            
 
         };
         this.log(`${JSON.stringify(walletData, null, 2)}`);
