@@ -20,7 +20,7 @@ $ npm install -g ethbox-cli
 $ ethbox COMMAND
 running command...
 $ ethbox (--version)
-ethbox-cli/0.0.1 linux-x64 node-v20.19.0
+ethbox-cli/0.0.2 linux-x64 node-v20.19.0
 $ ethbox --help [COMMAND]
 USAGE
   $ ethbox COMMAND
@@ -67,7 +67,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [src/commands/hello/index.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.1/src/commands/hello/index.ts)_
+_See code: [src/commands/hello/index.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.2/src/commands/hello/index.ts)_
 
 ## `ethbox hello world`
 
@@ -85,7 +85,7 @@ EXAMPLES
   hello world! (./src/commands/hello/world.ts)
 ```
 
-_See code: [src/commands/hello/world.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.1/src/commands/hello/world.ts)_
+_See code: [src/commands/hello/world.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.2/src/commands/hello/world.ts)_
 
 ## `ethbox help [COMMAND]`
 
@@ -409,7 +409,7 @@ DESCRIPTION
   Create a new wallet with a random address
 ```
 
-_See code: [src/commands/wallet/create.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.1/src/commands/wallet/create.ts)_
+_See code: [src/commands/wallet/create.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.2/src/commands/wallet/create.ts)_
 
 ## `ethbox wallet inspect ADDRESS`
 
@@ -426,5 +426,5 @@ DESCRIPTION
   Search Wallet for Data
 ```
 
-_See code: [src/commands/wallet/inspect.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.1/src/commands/wallet/inspect.ts)_
+_See code: [src/commands/wallet/inspect.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.2/src/commands/wallet/inspect.ts)_
 <!-- commandsstop -->
