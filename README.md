@@ -16,11 +16,11 @@ Ethereum CLI toolkit
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g ethbox
+$ npm install -g ethbox-cli
 $ ethbox COMMAND
 running command...
 $ ethbox (--version)
-ethbox/0.0.0 linux-x64 node-v20.19.0
+ethbox-cli/0.0.0 linux-x64 node-v20.19.0
 $ ethbox --help [COMMAND]
 USAGE
   $ ethbox COMMAND

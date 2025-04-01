@@ -1,10 +1,10 @@
 {
-  "name": "ethbox",
+  "name": "ethbox-cli",
   "description": "Ethereum CLI toolkit",
   "version": "0.0.0",
   "author": "@malawarecreator",
   "bin": {
-    "ethbox": "./bin/run.js"
+    "ethbox": "bin/run.js"
   },
   "bugs": "https://github.com/malawarecreator/ethbox/issues",
   "dependencies": {
@@ -65,7 +65,10 @@
       }
     }
   },
-  "repository": "malawarecreator/ethbox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malawarecreator/ethbox.git"
+  },
   "scripts": {
     "build": "shx rm -rf dist && tsc -b",
     "lint": "eslint",
