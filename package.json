@@ -1,7 +1,7 @@
 {
   "name": "ethbox-cli",
   "description": "Ethereum CLI toolkit",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "@malawarecreator",
   "bin": {
     "ethbox": "bin/run.js"

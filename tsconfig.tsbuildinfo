@@ -1,1 +1,1 @@
-{"root":["./src/index.ts","./src/commands/hello/index.ts","./src/commands/hello/world.ts","./src/commands/walletsearch/index.ts","./src/lib/client.ts","./src/lib/getWalletData.ts"],"version":"5.8.2"}
+{"root":["./src/index.ts","./src/commands/hello/index.ts","./src/commands/hello/world.ts","./src/commands/wallet/create.ts","./src/commands/wallet/inspect.ts","./src/lib/client.ts","./src/lib/getWalletData.ts"],"version":"5.8.2"}
