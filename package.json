@@ -63,6 +63,9 @@
       },
       "tx": {
         "description": "transaction actions"
+      },
+      "auth": {
+        "description": "authentication actions"
       }
     }
   },
