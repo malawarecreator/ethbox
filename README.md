@@ -26,7 +26,7 @@ $ npm install -g ethbox-cli
 $ ethbox COMMAND
 running command...
 $ ethbox (--version)
-ethbox-cli/0.0.4 win32-x64 node-v22.13.1
+ethbox-cli/0.0.5 win32-x64 node-v22.13.1
 $ ethbox --help [COMMAND]
 USAGE
   $ ethbox COMMAND
@@ -90,7 +90,7 @@ DESCRIPTION
   Login to your wallet using your private key
 ```
 
-_See code: [src/commands/auth/login.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.4/src/commands/auth/login.ts)_
+_See code: [src/commands/auth/login.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.5/src/commands/auth/login.ts)_
 
 ## `ethbox help [COMMAND]`
 
@@ -418,7 +418,7 @@ DESCRIPTION
   Send a transaction to an address
 ```
 
-_See code: [src/commands/tx/send.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.4/src/commands/tx/send.ts)_
+_See code: [src/commands/tx/send.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.5/src/commands/tx/send.ts)_
 
 ## `ethbox wallet create`
 
@@ -432,7 +432,7 @@ DESCRIPTION
   Create a new wallet with a random address
 ```
 
-_See code: [src/commands/wallet/create.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.4/src/commands/wallet/create.ts)_
+_See code: [src/commands/wallet/create.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.5/src/commands/wallet/create.ts)_
 
 ## `ethbox wallet inspect ADDRESS`
 
@@ -449,7 +449,7 @@ DESCRIPTION
   Search Wallet for Data
 ```
 
-_See code: [src/commands/wallet/inspect.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.4/src/commands/wallet/inspect.ts)_
+_See code: [src/commands/wallet/inspect.ts](https://github.com/malawarecreator/ethbox/blob/v0.0.5/src/commands/wallet/inspect.ts)_
 <!-- commandsstop -->
 * [`ethbox auth login PRIVATEKEY`](#ethbox-auth-login-privatekey)
 * [`ethbox help [COMMAND]`](#ethbox-help-command)
