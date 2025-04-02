@@ -1,0 +1,112 @@
+{
+  "commands": {
+    "auth:login": {
+      "aliases": [],
+      "args": {
+        "privateKey": {
+          "description": "the private key to login with",
+          "name": "privateKey",
+          "required": true
+        }
+      },
+      "description": "Login to your wallet using your private key",
+      "flags": {},
+      "hasDynamicHelp": false,
+      "hiddenAliases": [],
+      "id": "auth:login",
+      "pluginAlias": "ethbox-cli",
+      "pluginName": "ethbox-cli",
+      "pluginType": "core",
+      "strict": true,
+      "enableJsonFlag": false,
+      "isESM": true,
+      "relativePath": [
+        "dist",
+        "commands",
+        "auth",
+        "login.js"
+      ]
+    },
+    "tx:send": {
+      "aliases": [],
+      "args": {
+        "amount": {
+          "description": "the amount to send",
+          "name": "amount",
+          "required": true
+        },
+        "to": {
+          "description": "the address to send to",
+          "name": "to",
+          "required": true
+        }
+      },
+      "description": "Send a transaction to an address",
+      "flags": {},
+      "hasDynamicHelp": false,
+      "hiddenAliases": [],
+      "id": "tx:send",
+      "pluginAlias": "ethbox-cli",
+      "pluginName": "ethbox-cli",
+      "pluginType": "core",
+      "strict": true,
+      "enableJsonFlag": false,
+      "isESM": true,
+      "relativePath": [
+        "dist",
+        "commands",
+        "tx",
+        "send.js"
+      ]
+    },
+    "wallet:create": {
+      "aliases": [],
+      "args": {},
+      "description": "Create a new wallet with a random address",
+      "flags": {},
+      "hasDynamicHelp": false,
+      "hiddenAliases": [],
+      "id": "wallet:create",
+      "pluginAlias": "ethbox-cli",
+      "pluginName": "ethbox-cli",
+      "pluginType": "core",
+      "strict": true,
+      "enableJsonFlag": false,
+      "isESM": true,
+      "relativePath": [
+        "dist",
+        "commands",
+        "wallet",
+        "create.js"
+      ]
+    },
+    "wallet:inspect": {
+      "aliases": [],
+      "args": {
+        "address": {
+          "description": "the address to search",
+          "name": "address",
+          "required": true
+        }
+      },
+      "description": "Search Wallet for Data",
+      "flags": {},
+      "hasDynamicHelp": false,
+      "hiddenAliases": [],
+      "id": "wallet:inspect",
+      "pluginAlias": "ethbox-cli",
+      "pluginName": "ethbox-cli",
+      "pluginType": "core",
+      "strict": true,
+      "enableJsonFlag": false,
+      "isESM": true,
+      "relativePath": [
+        "dist",
+        "commands",
+        "wallet",
+        "inspect.js"
+      ]
+    }
+  },
+  "version": "0.0.5"
+}
