@@ -60,6 +60,9 @@
       
       "wallet": {
         "description": "wallet actions"
+      },
+      "tx": {
+        "description": "transaction actions"
       }
     }
   },
